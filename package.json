@@ -1,0 +1,17 @@
+{
+  "name": "rescript-test-docgen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rescript build",
+    "docgen": "restools doc ./src/test.res > doc/doc.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rescript/tools": "file:rescript-tools-0.1.0.tgz",
+    "rescript": "^11.0.0-rc.4"
+  }
+}

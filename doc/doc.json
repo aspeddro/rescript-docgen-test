@@ -1,0 +1,51 @@
+
+{
+  "name": "Test",
+  "docstrings": [],
+  "items": [
+  {
+    "id": "Test.user",
+    "kind": "type",
+    "name": "user",
+    "signature": "type user = {name: string, age: int}",
+    "docstrings": [],
+    "detail": 
+    {
+      "kind": "record",
+      "items": [{
+        "name": "name",
+        "optional": false,
+        "docstrings": [],
+        "signature": "string"
+      }, {
+        "name": "age",
+        "optional": false,
+        "docstrings": [],
+        "signature": "int"
+      }]
+    }
+  }, 
+  {
+    "id": "Test.t",
+    "kind": "type",
+    "name": "t",
+    "signature": "type t = A(int) | B(int)",
+    "docstrings": [],
+    "detail": 
+    {
+      "kind": "variant",
+      "items": [
+      {
+        "name": "A",
+        "docstrings": [],
+        "signature": "A(int)"
+      }, 
+      {
+        "name": "B",
+        "docstrings": [],
+        "signature": "B(int)"
+      }]
+    }
+  }]
+}
+
