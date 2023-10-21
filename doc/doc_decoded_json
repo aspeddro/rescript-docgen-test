@@ -1,25 +1,52 @@
 {
-  name: 'Lib',
-  deprecated: undefined,
-  docstrings: [],
-  items: [
+  "name": "Lib",
+  "docstrings": [],
+  "items": [
     {
-      kind: 'type',
-      id: 'Lib.user',
-      docstrings: [],
-      signature: 'type user = {name: string, age: int}',
-      name: 'user',
-      deprecated: undefined,
-      detail: [Object]
+      "kind": "type",
+      "id": "Lib.user",
+      "docstrings": [],
+      "signature": "type user = {name: string, age: int}",
+      "name": "user",
+      "detail": {
+        "kind": "record",
+        "items": [
+          {
+            "name": "name",
+            "docstrings": [],
+            "signature": "string",
+            "optional": false
+          },
+          {
+            "name": "age",
+            "docstrings": [],
+            "signature": "int",
+            "optional": false
+          }
+        ]
+      }
     },
     {
-      kind: 'type',
-      id: 'Lib.t',
-      docstrings: [],
-      signature: 'type t = A(int) | B(int)',
-      name: 't',
-      deprecated: undefined,
-      detail: [Object]
+      "kind": "type",
+      "id": "Lib.t",
+      "docstrings": [],
+      "signature": "type t = A(int) | B(int)",
+      "name": "t",
+      "detail": {
+        "kind": "variant",
+        "items": [
+          {
+            "name": "A",
+            "docstrings": [],
+            "signature": "A(int)"
+          },
+          {
+            "name": "B",
+            "docstrings": [],
+            "signature": "B(int)"
+          }
+        ]
+      }
     }
   ]
 }
