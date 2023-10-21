@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rescript build",
-    "docgen": "restools doc ./src/test.res > doc/doc.json"
+    "docgen": "rescript-tools doc ./src/lib.res > doc/doc.json"
   },
   "keywords": [],
   "author": "",

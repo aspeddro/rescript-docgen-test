@@ -19,5 +19,4 @@ let __dirname = URL.fileURLToPath(url.href)
 let docPath = pathJoin([__dirname, "..", "doc", "doc.json"])
 
 let json = docPath->readFileSync->Js.Json.parseExn
-
 RescriptTools.Docgen.decodeFromJson(json)->Js.log
