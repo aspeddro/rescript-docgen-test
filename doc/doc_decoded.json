@@ -1,0 +1,25 @@
+{
+  name: 'Lib',
+  deprecated: undefined,
+  docstrings: [],
+  items: [
+    {
+      kind: 'type',
+      id: 'Lib.user',
+      docstrings: [],
+      signature: 'type user = {name: string, age: int}',
+      name: 'user',
+      deprecated: undefined,
+      detail: [Object]
+    },
+    {
+      kind: 'type',
+      id: 'Lib.t',
+      docstrings: [],
+      signature: 'type t = A(int) | B(int)',
+      name: 't',
+      deprecated: undefined,
+      detail: [Object]
+    }
+  ]
+}

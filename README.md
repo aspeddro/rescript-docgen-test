@@ -9,3 +9,9 @@ Generate JSON:
 ```sh
 npm run docgen
 ```
+
+Decode JSON:
+
+```sh
+node scripts/test.bs.mjs > doc/doc_decoded.json
+```
